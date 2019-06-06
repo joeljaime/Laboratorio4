@@ -14,14 +14,11 @@ package com.p2.mundopc;
     private static int idTeclado;
     private static int contadorTeclados;
     
-//    public Teclado(String tipoEntrada, String marca) {    
-//        super(tipoEntrada, marca);
-//    }
 
     public Teclado(String tipoEntrada, String marca) {
         super(tipoEntrada, marca);
-//        this.idTeclado = idTeclado;
-//        this.contadorTeclados = ++contadorTeclados;
+      this.idTeclado = idTeclado;
+        this.contadorTeclados = ++contadorTeclados;
     }
 
     public static int getIdTeclado() {

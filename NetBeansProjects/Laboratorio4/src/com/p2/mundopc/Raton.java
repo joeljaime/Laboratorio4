@@ -14,15 +14,10 @@ package com.p2.mundopc;
     private static int idRaton;
     private static int contadorRatones;
     
-//    public Raton(String tipoEntrada, String marca) {
-//        super(tipoEntrada, marca);
-//    }
-
-    public Raton(String tipoEntrada, String marca) {
-        super(tipoEntrada, marca);
-//        this.idRaton = ++idRaton;
-//        this.contadorRatones = ++contadorRatones;
-    }
+  public Raton(String tipoEntrada, String marca) {
+     super(tipoEntrada, marca);
+     this.contadorRatones = ++contadorRatones;
+ }
 
     public static int getIdRaton() {
         return ++idRaton;
